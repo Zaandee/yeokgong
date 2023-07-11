@@ -1,0 +1,229 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+	margin:0 auto;
+    color:#333;
+    
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'ChosunGs';
+    
+}
+ul{
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+/* header 시작 */
+
+.header_cover{
+    width: 100%;
+    height: 70px;
+    min-width: 1600px;
+    text-align: center;
+}
+.header_cover>h1{
+    font-family: 'Gugi', cursive;
+    color: #10297e;
+    text-shadow: 3px 3px 2px rgb(255, 255, 255);
+  
+    font-size: 55px;
+    width: 10%;
+
+    
+}
+.header_cover>nav{
+    
+    box-sizing: border-box;
+    width: 50%;
+}
+.header_cover>ul{
+   
+    width: 40%;
+    text-align: right;
+    
+    height: 70px;
+    
+
+}
+
+.header_cover {
+    width:100%;
+	height:70px;
+    position: fixed;
+    z-index: 100;
+    min-width: 1500px;
+    top: 0;
+    left: 0;
+   
+}
+
+.header_cover>h1, .header_cover>nav, .header_cover>ul{
+    float: left;
+}
+.header_cover>nav>ul>li{
+    float: left;
+    
+}
+
+
+
+.header_cover>nav>ul>li>a {
+	display: inline-block;
+	width:130px;
+	height:40px;
+	text-align: center;
+	line-height: 35px;
+    padding-top: 20px;
+    color: #fff;
+    
+    font-size: 20px;
+    
+
+}
+.header_cover>nav>ul>li>a:hover{
+    color: #10297e !important;
+}
+
+.header_cover>ul>li{
+    margin-right: 10%;
+    line-height: 70px;
+    display: inline-block;
+}
+.header_cover>ul>li>a{
+    text-align: right;
+    
+    padding-top: 20px;
+    color: #fff;
+    
+}
+.header_cover>ul>li>a:hover{
+    color: red !important;
+}
+
+
+.search{
+    position: relative;
+    
+}  
+.search_box{
+    position: relative;
+    top: -20px;
+    left: 70px;
+
+}
+.search1{
+    position: absolute;
+    /* opacity: 0; */
+    z-index: 5;
+    background-color: #ffff;
+    border: 2px solid #10297e;
+    border-radius: 10px;
+    
+    font-size: 18px;
+    padding: 15px;
+    height: 6px;
+    width: 300px;
+    transition: width 0.3s ease;
+}
+.search:hover>.search_box{
+    opacity: 3;
+    top: 50px;
+}
+.btn{
+    /* opacity: 0; */
+    font-size: 20px;
+    margin-top: 5px;
+    border: 1px solid #fff;
+    background-color: #ffffff00;
+    position: absolute;
+    
+    left: 360px;
+    z-index: 6;
+}
+.btn:hover{
+  border:1px solid #10297e;
+  border-radius: 100px;
+}
+
+
+
+
+
+
+.footer{ 
+  
+    margin-top: 200px;
+    padding: 20px 50px;
+	text-align: center;
+    min-width: 1500px;
+    width: 100%;
+    clear: both;
+    color: #555;
+    font-size : 0.9em;
+    font-style : normal;
+    border-top: 0.5px solid gray;
+}
+
+.contact {
+    
+	
+	line-height : 25px;
+    width: 50%;
+	
+	
+	
+	float : left;
+    text-align: left;
+    
+}
+.sns{
+  
+    text-align: left;
+    float: left;
+    line-height : 25px;
+    width: 50%;
+}
+.social{
+    width : 700px;
+	font-style : normal;
+	color : #555;
+	float : left;
+    text-align: left;
+    width: 100%;
+   
+}
+
+
+.social>ul>li {
+	display:inline;
+	margin-left : 15px;
+	margin-top : 50px;
+    
+    
+}
+
+.social>ul>li>a>i{
+    text-align: left;	
+}
+ 
+  

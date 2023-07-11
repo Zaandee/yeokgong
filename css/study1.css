@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header_cover{
+    background-color: #fff;
+    
+    height: 70px;
+}
+.header_cover>nav>ul>li>a{
+    color: black;
+}
+.header_cover>ul>li>a{
+    color: black;
+}
+
+.contents{
+    margin: 150px 50px;
+    min-width: 1600px;
+}
+.contents2{
+    width: 1250px;
+    margin-bottom: 150px;
+    min-width: 1250px;
+    margin-left: 450px;
+    margin-right: 500px;
+    
+}
+
+.eramenu{
+    float: left;
+}
+
+.eramenu>h3{
+    margin-bottom: 30px;
+    font-size: 28px;
+
+}
+.eramenu>ul{
+    text-align: left;
+    margin-top: 40px;
+    padding:30px;
+    /* background-color: #c5deff;
+     */
+}
+.eramenu>ul>li{
+    position: relative;
+    margin-bottom: 60px;
+  }
+.eramenu>ul>li>a{
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+.eramenu>ul>li>a:hover{
+    color: black;
+    font-weight: bolder;
+}    
+
+.menu{
+    cursor: pointer;
+} 
+.menu:hover .sub{
+    display: block;
+}
+
+.sub{
+    display: none;
+    position: relative;
+    z-index : 1;
+}
+
+.sub a {
+    display : block;
+}
+
+
+.sub>li{
+    margin: 15px 0;
+    text-align: center;
+}
+
+
+
+.sub>li>a:hover{
+    color: black;
+    font-weight: bolder;
+    
+}
+.sub>li>a{
+    padding: 10px 40px;
+}
+
+
+.contents2>div {
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+.title{
+    font-size: 50px;
+    color: #12267c;
+    margin-bottom: 50px;
+}
+.title>span{
+    font-size: 20px;
+    color: #646566;
+}
+.detail{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contents2 h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1d2f77;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.stone>img{
+    width: 500px;
+    float: left;
+}
+.stone>p{
+    margin-bottom: 10px;
+}
+.stone>p>span{
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #036786;
+}
+.stone::after{
+    clear: both;
+}
+
+.stonetype>h3{
+    font-size: 19px;
+    color: #003849;
+    margin-bottom: 20px;
+}
+#stonetype h4:focus, #stonetype h4:active {
+    color: #0698e0;
+}
+#stonetype{
+    font-family:'ChosunGs' ;
+}
+
+.environment>p>span{
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #032564;
+    text-decoration: underline;
+}
+
+.fire>img{
+    width: 600px;
+    float: right;
+}
+.fire::after{
+    clear: both;
+}
+
+.ruins{
+    text-align: center;
+}
+.ruins>img{
+    margin-top: 50px;
+    width: 700px;
+}
+
+.check>h2{
+    background-color: #3462b8;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 6px;
+    font-size: 28px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+table{
+    border-collapse : collapse;
+    border: 1px solid black;
+    width: 900px;
+    
+}
+th, td{
+    border: 1px solid black;
+    padding: 20px;
+}
+th{
+    background-color: #6387a8;
+    color: #fff;
+    letter-spacing: 6px;
+    font-size: 20px;
+}

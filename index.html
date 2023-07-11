@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>역사 교육 웹사이트</title>
+    <script src="https://kit.fontawesome.com/f85ff2326a.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-1.12.3.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+   
+</head>
+<body onload="showsaying()">
+    <header>
+        <div class="header_cover">
+            <h1><a href="index.html">역공</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="study.html">공부</a></li>
+                    <li><a href="gallery1-1.html">사진</a></li>
+                    <li><a href="board.html">게시판</a></li>
+                    <li><a href="#" class="search">검색</a>
+                        <div class="search_box">
+                            <input type="text" class="search1" placeholder="검색..">
+                            <button class="btn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="slide_box">
+            <div class="slide">
+                <img src="./images/bg10.jpg " alt="bg10"></div>   
+            <div class="slide">
+                <img src="./images/bg11.jpg " alt="bg11"></div> 
+            <div class="slide">
+                <img src="./images/bg12.jpg " alt="bg12"></div>  
+            <div class="slide">
+                <img src="./images/bg8.jpg " alt="bg8"></div>
+            <div class="slide">
+                <img src="./images/bg9.jpg " alt="bg9"></div>
+            <div class="slide">
+                <img src="./images/bg1.jpg " alt="bg1"></div>
+            <div class="slide">
+                <img src="./images/bg2.jpg " alt="bg2"></div>
+            <div class="slide">
+                <img src="./images/bg3.jpg " alt="bg3"></div>
+            <div class="slide">
+                <img src="./images/bg5.jpg " alt="bg5"></div>
+            <div class="slide">
+                <img src="./images/bg6.jpg " alt="bg6"></div>
+            <div class="slide">
+                <img src="./images/bg7.jpg " alt="bg7"></div>
+          
+           
+        </div>
+    </section>
+
+    <section class="intro">
+        <h2>소개</h2>
+        <div class="intro1">
+            <span>한국 역사를 공부하고자 하는 사람들을 위한 플랫폼입니다.</span> <br>
+            <span>다양한 시대별 키워드를 중심으로 한국 역사의 주요 사건과 인물, 문화유산 등을 쉽고 재미있게 학습할 수 있도록 구성되어 있습니다.</span> <br>
+            <span>처음 접하는 초보자부터 역사에 대한 전문적인 지식을 가진 사람들까지 모두에게 유용한 정보를 제공합니다.</span><br>
+            <span>주요 역사 사건들을 시대별로 구분하여 소개하고, 관련 사진과 동영상 자료, 참고 자료 등을 제공하여</span><br>
+            <span>쉽고 간편한 사용 방법과 다양한 학습 콘텐츠로 한국사 공부의 즐거움을 느끼시길 바랍니다.</span>
+        </div>
+        <script>
+            // const introText = document.querySelectorAll("span");
+
+            // window.onload = () => {
+            // let timer = 1000;
+            // introText.forEach((item) => {
+            //     item.style.animation = `fade 500ms ${(timer += 500)}ms forwards`;
+            //     });
+            // };
+        </script>
+
+    </section>
+
+    <section class="bg">
+        <div id="saying"></div>
+        <script>
+            var say = new Array();
+            say[0]="역사는 모든 과학의 기초이며 인간 정신의 최초 산물이다. <br> - 토머스 칼라일 - "
+            say[1]="역사는 과거와 현재의 끊임없는 대화이다. <br> - E.H.카 -"
+            say[2]="역사는 항상 새롭게 다시 쓰이며, 따라서 모든 역사는 현재의 역사이다. <br> - 칼 베커 -"
+            say[3]="인류에게 가장 큰 비극은 지나간 역사에서 아무런 교훈도 얻지 못한다는 데 있다. <br> - 아널드 조지프 토인비 -"
+            say[4]="과거를 잊어버리는 자는 그것을 또다시 반복하게 된다. <br> - 조지 산타야나 -"
+            say[5]="미래에 대한 최선의 예언자는 과거이다. <br> - 조지 고든 바이런 -"
+            say[6]="세월을 헛되이 보내지 마라 청춘은 다시 돌아오지 않는다. <br> - 안중근 의사 -"
+            say[7]="강한자가 살아남는 것이 아니라 살아남는자가 강한 것이다. <br> - 김유신 장군 - "
+
+            function showsaying(){
+                var sayNum = Math.round(Math.random()*7);
+                var saying = document.getElementById("saying");
+                saying.innerHTML = say[sayNum];
+            }
+        </script>
+    
+
+        <section class="era">
+            <h2>시대별</h2>
+            <div class="card">
+                <div class="era_card">
+                    <a href="#"><img src="./images/card1.jpg" alt="이미지"> </a>
+                    <div class="hidden_card">
+                        <h3>선사시대</h3>
+                        <p>기원전 70 만년 전 ~ 기원전 108 년</p>
+                    </div>
+                </div>
+                <div class="era_card">
+                    <a href="#"><img src="./images/card2.jpg" alt="이미지"> </a>
+                    <div class="hidden_card">
+                        <h3>고대</h3>
+                        <p>기원전 57 년 ~ 935 년</p>
+                    </div>
+                </div>
+                <div class="era_card">
+                    <a href="#"><img src="./images/card3.jpg" alt="이미지"> </a>
+                    <div class="hidden_card">
+                        <h3>고려시대</h3>
+                        <p>936 년 ~ 1391 년</p>
+                    </div>
+                </div>
+                <div class="era_card">
+                    <a href="#"><img src="./images/card4.jpg" alt="이미지"> </a>
+                    <div class="hidden_card">
+                        <h3>조선시대</h3>
+                        <p>1392 년 ~ 1862 년</p>
+                    </div>
+                </div>
+                <div class="era_card">
+                    <a href="#"><img src="./images/card5.jpg" alt="이미지"> </a>
+                    <div class="hidden_card">
+                        <h3>근대</h3>
+                        <p>1863 년 ~ 1909 년</p>
+                    </div>
+                </div>
+                <div class="era_card">
+                    <a href="#"><img src="./images/card6.jpg" alt="이미지"> </a>
+                    <div class="hidden_card">
+                        <h3>일제 강점기</h3>
+                        <p>1910 년 ~ 1942 년</p>
+                    </div>
+                </div>
+                <div class="era_card">
+                    <a href="#"><img src="./images/card7.jpg" alt="이미지"> </a>
+                    <div class="hidden_card">
+                        <h3>현대</h3>
+                        <p>1945 년 ~</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Email: two_jone@naver.com</p>
+                <p>Phone: 010-2277-0984</p>
+            </div>
+            <div class="sns">
+                <h3>Follow Us</h3>
+                <ul class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </ul>
+            </div>
+                
+        </div>
+          
+    </footer>
+
+</body>  
+</html>             

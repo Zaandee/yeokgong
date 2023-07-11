@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header_cover{
+    background-color: #fff;
+    
+    height: 70px;
+}
+.header_cover>nav>ul>li>a{
+    color: black;
+}
+.header_cover>ul>li>a{
+    color: black;
+}
+
+.contents{
+    width: 1700px;
+    margin: 150px 100px;
+    min-width: 1600px;
+    
+}
+.board1{
+    float: left;
+    width: 800px;
+    margin-left: 10px;
+    
+}
+.board2{
+    float: right;
+    width: 800px;
+    margin-bottom: 100px;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+.contents>h2{
+    margin: 20px 0;
+}
+.contents>h3{
+    margin: 40px 0;
+}
+.plus1{
+    margin-left: 700px;
+    margin-bottom: 8px;
+    color: #122c74;
+}
+.notice{
+    border: 1px #4a8beea9 solid;
+    padding: 10px;
+    width: 720px;
+    /* min-width: 730px;/ */
+    margin-right: 0px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    
+    
+}
+.notice>ul{
+    line-height: 50px;
+    
+
+}
+.notice>ul>li{
+    border-bottom: 1px #4a8beea9 dotted;
+}
+.notice>ul>li>a:hover{
+   background-color: #91bdff42;
+   padding: 5px;
+   font-size: 1.5em;
+}
+
+table{
+    width: 730px;
+    border-collapse : collapse;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+img{
+    padding-top: 20px;
+    width: 110px;
+    height: 110px;
+   
+}
+img:hover{
+    opacity: 50%;
+}
+
+table td{
+    width: 350px;
+    padding: 10px;
+}
+td div:nth-child(1){
+    width: 100px;
+}
+td div:nth-child(2){
+    
+    width: 200px;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+td div:nth-child(2)>h4{
+    margin: 20px 10px;
+}
+td div{
+    float: left;
+}
+
+
+table td{
+    border: 1px #4a8cee96 solid;
+    
+}
+span{
+    font-size: 13px;
+    padding-left: 10px;
+   
+    
+    color: #777777;
+ 
+}
+.plus2{
+    margin-left: 700px;
+    margin-bottom: 8px;
+    color: #122c74;
+}
+.plus3{
+    margin-left: 700px;
+    margin-bottom: 8px;
+    color: #122c74;
+}
+
+.board2>h2{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+
+.commu>h3{
+    margin-left: 50px;
+}
+
+.vogue{
+    border: 1px #4a8beea9 solid;
+    padding: 15px;
+    width: 700px;
+    min-width: 700px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    
+
+}
+.vogue>ul{
+    line-height: 50px;
+    
+   
+}
+.vogue>ul>li{
+    border-bottom:1px #4a8beea9 dotted;
+}
+.vogue>ul>li>a:hover{
+    background-color: #4a8cee73;
+    padding: 5px;
+}
+
+.recent{
+    border: 1px #4a8beea9 solid;
+    margin-bottom: 30px;
+    width: 700px;
+    padding: 10px;
+    min-width: 700px;
+    margin-left: 80px;
+}
+.recent>ul{
+    line-height: 50px;
+}
+.recent>ul>li{
+    border-bottom: 1px #4a8beea9 dotted;
+}
+.recent>ul>li>a:hover{
+    background-color: #4a8cee73;
+    padding: 5px;
+}

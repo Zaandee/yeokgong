@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+li {
+    list-style: none;
+}
+
+.header_cover{
+    background-color: #fff;
+    
+    height: 70px;
+}
+.header_cover::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header_cover>nav>ul>li>a{
+    color: black;
+}
+.header_cover>ul>li>a{
+    color: black;
+}
+
+.contents1{
+    margin: 120px 50px;
+    width: 1800px;
+    
+}
+.eramenu{
+    float: left;
+    margin-top: 40px;
+}
+
+.eramenu>h3{
+    margin-bottom: 30px;
+    font-size: 28px;
+
+}
+.eramenu>ul{
+    text-align: left;
+    margin-top: 60px;
+    padding:30px;
+    /* background-color: #c5deff;
+     */
+}
+.eramenu>ul>li{
+    margin-bottom: 60px;
+  }
+.eramenu>ul>li>a{
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+.eramenu>ul>li>a:hover{
+    color: black;
+    font-weight: bolder;
+}    
+
+.modernsa{
+    cursor: pointer;
+} 
+.modernsa:hover .modern{
+    display: block;
+}
+
+.modern{
+    display: none;
+    position: absolute;
+    z-index : 1;
+}
+
+.modern a {
+    display : block;
+}
+
+
+.modern>li{
+    margin: 15px 0;
+    text-align: center;
+}
+
+
+
+.modern>li>a:hover{
+    color: black;
+    font-weight: bolder;
+    
+}
+.modern>li>a{
+    padding: 10px 40px;
+}
+
+
+
+.eramenu2{
+    padding-top: 90px;
+    width: 1800px;
+ 
+ }
+.eramenu2>ul{
+    text-align: center;
+    width: 1500px;
+    
+}
+.eramenu2>ul>li{
+    margin: 0 60px;
+    min-width: 1800px;
+    display: inline;
+   
+    
+}
+.eramenu2>ul>li>a{
+    font-size: 28px;
+    padding: 30px 50px;
+    color: #000000;
+    /* background-color: #c5deff; */
+    background-image:url(../images/paint3.png);
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.eramenu2>ul>li>a:hover{
+    color: #fff;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+}
+img:hover{
+    opacity: 50%;
+}
+.gallery>ul{
+    width: 1800px;
+    padding-left: 350px;
+    
+    margin-top: 100px;
+  
+}
+
+.gallery>ul>li{
+    display: inline-block;
+    
+}

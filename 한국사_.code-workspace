@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../홈페이지연습"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "한국사_"
+	}
+}
